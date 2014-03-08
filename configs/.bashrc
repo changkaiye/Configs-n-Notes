@@ -115,7 +115,11 @@ PS1='\[\e[1;35m\][\[\e[1;33m\]\u@\h \[\e[1;31m\]\w\[\e[1;36m\]$(__git_ps1 " (%s)
 alias ls='ls --color=auto'
 alias ll='ls -la'
 
+# Work related
 alias lilab="ssh kchang@sqa-lab1.vbg.se.prnw.net"
 alias libook="ssh configure@sqa-lab1"
 alias lidsTest="ssh -X devsol@172.21.9.210"
 alias limusic="ssh sqa@sqa-mediacenter.vbg.se.prnw.net"
+
+# Download the video into current path via youtube-dl
+alias youtube-dl-fast="youtube-dl -o '%(title)s-%(id)s.%(ext)s'"
