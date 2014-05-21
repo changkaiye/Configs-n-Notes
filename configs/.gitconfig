@@ -1,7 +1,7 @@
 [user]
 	name = Kaiye Chang
-	email = kaiye.chang@proceranetworks.com
-
+	email = changkaiye@yahoo.com
 [color]
 	ui = true
-
+[core]
+	excludesfile = /Users/kaiye/.gitignore_global
